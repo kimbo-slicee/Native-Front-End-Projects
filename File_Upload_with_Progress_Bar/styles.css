@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+ }
+:root{
+    --main-color:#6990f2;
+    --background-color:#fff;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--main-color);
+}
+.wrapper{
+    width: 430px;
+    padding: 30px;
+    background-color: var(--background-color);
+    border-radius: 5px;
+}
+.wrapper header{
+color: var(--main-color);
+font-size: 27px;
+font-weight: 600;
+text-align: center;
+}
+.wrapper form{
+    height: 167px;
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px dashed var(--main-color);
+}
+form :where(i,p){
+    color: var(--main-color);
+}
+form i{
+    font-size: 50px;
+}
+form p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+section .row{
+    background-color: #e9f0ff;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+section .row i{
+    font-size: 30px;
+    color:var(--main-color);
+}
+select .details span{
+    font-size: 14px;
+}
+.progress-area .row .content{
+    width:100%;
+    margin-left: 15px;
+}
+.progress-area .details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    justify-content: space-between;
+}
+.progress-area .progress-bar{
+    height: 6px;
+    width: 100%;
+    background: var(--background-color);
+    margin-bottom:4px;
+    border-radius: 30px;
+}
+.progress-bar .progress{
+    height: 100%;
+    width: 50%;
+    background-color: var(--main-color);
+    border-radius: inherit;
+}
+.uploaded-area{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+.uploaded-area::-webkit-scrollbar{
+    width: 0px;
+}
+
+.uploaded-area .row .content{
+    display: flex;
+    align-items: center;
+}
+.uploaded-area .details .size{
+    font-size: 11px;
+    color: #404040;
+}
+.uploaded-area .fa-check{
+    font-size: var(--main-color);
+    font-size: 16px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+

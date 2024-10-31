@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Todo List">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Me">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <section class="todo">
+        <h2>To-Do List</h2>
+        <div class="input">
+        <input 
+        type="text"
+        placeholder="Todo"
+        id="todoInput" 
+        class="input-field"
+        />
+        </div>
+        <ul class="scroll">
+            <li id="todoList"><p>teste</p></li>
+        </ul>
+        <div>
+            <hr class="counter"/>
+            <div class="counter-container">
+                <p><span>0</span> Items Todo</p>
+                <button id="deleteButton">Delete All </button>
+            </div>
+        </div>
+        <button type="submit" class="btn">Add</button>
+    </section>
+    <footer>
+        <div class="footer">
+            <p class="made-by">Made By</p>
+            <p class="author">Aura</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

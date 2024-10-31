@@ -1,0 +1,52 @@
+--Flexible Box 
+==========For Parent========================================
+-- Display: flex => To start Flexible Box 
+-- flex-direction: row Default value 
+-- flex-warp: nowrap=>dfault value 
+-- flex-flow: [Flex-Direction]+[Flex-Wrap]
+-- Justify-content: flex-start =>Default Value 
+-- align-items: stretch=>Default Value
+-- align-content: stretch => Default Value
+=========For Chalid===========================================
+-- flex-grow: 0 =>Default Value 
+-- flex-shrink: 1 => default Value 
+-- order : => 0=> Default Value 
+-- flex-basis: auto => default Value 
+-- Shorthand: flex: [Flex Grow] [Flex shrink ][Flex Basis]
+-- align-self: auto => Default Value 
+===============================================================
+--Display Grid
+=======================For Parent==============================
+--display:grid|inline-Grid
+--Grid-Template-columns=>[Number Of columns:width of columns]=>repeat(number-of-columns,auto)=>Fraction
+--Grid-Template-Rows=>[Number of rows]=> height of rows 
+--Row-Gap
+--column-Gap
+--Shorthand=>Gap
+=======================For Child====================================
+--Grid column: Sapn 4
+--grid-area:[Grid Row Start] [Grid Column Start] [Grid Row End] [Grid Cloumn End]
+--grid-Template-Cloumns:repeat(auto-fill,minmax(200px,1fr))
+=======================transfrom 2D=================================
+--transfrom:scale(scale-x,scale-y);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

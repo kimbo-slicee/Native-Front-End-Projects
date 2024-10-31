@@ -21,6 +21,7 @@ body{
     padding: 30px;
     background-color: var(--background-color);
     border-radius: 5px;
+    max-height: 80%;
 }
 .wrapper header{
 color: var(--main-color);
@@ -37,16 +38,29 @@ text-align: center;
     flex-direction: column;
     border-radius: 5px;
     border: 2px dashed var(--main-color);
+    cursor: pointer;
+    position: relative;
 }
 form :where(i,p){
     color: var(--main-color);
 }
 form i{
     font-size: 50px;
+    cursor: pointer;
 }
 form p{
     font-size: 16px;
     margin-top: 15px;
+}
+input[type="file"]{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-color: #6990f2;
+    position: absolute;
+    width: 50px;
+    opacity: 0;
+
 }
 section .row{
     background-color: #e9f0ff;
